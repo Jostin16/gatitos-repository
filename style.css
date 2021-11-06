@@ -100,15 +100,16 @@ audio{
 @media screen and (max-width: 420px) {
     .cats-section{
         width: 50%;
-        margin: auto;
     }
     .image-cat{
         height: 250px;
         width: 200px;
+        margin: 20px;
     }
     .image-cat:hover{
-        height: 200px;
-        width: 150px;
+        height: 250px;
+        width: 200px;
+        margin: 20px;
         transform: rotateY(160deg);
         transform-style: preserve-3d;
     }
