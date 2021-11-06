@@ -74,3 +74,7 @@ div{
     height: 50px;
     border-radius: 50%;
 }
+
+audio{
+    display: none;
+}
