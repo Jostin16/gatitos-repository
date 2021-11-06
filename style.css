@@ -18,7 +18,7 @@ h1{
     box-shadow: 0px 10px 2px 5px rgba(0, 0, 0, 6);
 }
 
-div{
+.cats-section{
     display: block;
     align-items: center;
     justify-content: center;
@@ -77,4 +77,39 @@ div{
 
 audio{
     display: none;
+}
+
+@media screen and (max-width: 720px) {
+    .cats-section{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .image-cat{
+        height: 350px;
+        width: 300px;
+    }
+    .image-cat:hover{
+        height: 300px;
+        width: 280px;
+    }
+    .scroll-up{
+
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .cats-section{
+        width: 50%;
+        margin: auto;
+    }
+    .image-cat{
+        height: 250px;
+        width: 200px;
+    }
+    .image-cat:hover{
+        height: 200px;
+        width: 150px;
+        transform: rotateY(160deg);
+        transform-style: preserve-3d;
+    }
 }
