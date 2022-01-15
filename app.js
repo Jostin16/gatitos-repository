@@ -7,7 +7,3 @@ scrollUp.addEventListener('click',()=>{
        behavior:"smooth" 
     });
 });
-
-
-const audio = document.querySelector("#audio");
-audio.play();
