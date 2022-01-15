@@ -4,11 +4,8 @@ html{
     overflow-x: hidden;
     font-family: 'Mochiy Pop One', sans-serif;
     color: white;
-
-
-    background: #FC5C7D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FC5C7D;
+    background: linear-gradient(to right, #6A82FB, #FC5C7D);
 }
 
 body{
